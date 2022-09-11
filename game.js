@@ -59,7 +59,7 @@ function nextSequence(){
 }
 function playSound(name) {
 // to add sound to colors 
-    var audio = new Audio("sounds/" + name + ".mp3");
+    var audio = new Audio( name + ".mp3");
     audio.play();
 }
 function animatePress(currentcolor){
